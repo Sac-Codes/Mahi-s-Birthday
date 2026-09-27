@@ -5,32 +5,32 @@
   --font-body: "Inter", sans-serif;
   --font-handwritten: "Caveat", cursive;
 
-  --color-ivory: #faf6f0;
-  --color-cream: #f0ebe3;
-  --color-sand: #e8dfd5;
+  --color-ivory: #fffaf7;
+  --color-cream: #f8efe8;
+  --color-sand: #efdcc7;
 
-  --color-charcoal: #2d2926;
-  --color-deep-plum: #21172b;
-  --color-plum: #3d2b3d;
-  --color-muted-plum: #5c4a5c;
+  --color-charcoal: #2b1f24;
+  --color-deep-plum: #2b1d31;
+  --color-plum: #4d2d42;
+  --color-muted-plum: #73546a;
 
-  --color-coral: #ff7568;
-  --color-soft-coral: #f4a896;
-  --color-peach: #ffc7a6;
+  --color-coral: #f06e68;
+  --color-soft-coral: #f7b1a8;
+  --color-peach: #f9d0b2;
 
-  --color-purple: #b9a7e8;
-  --color-soft-purple: #c4a8d4;
-  --color-lavender: #e8dff0;
+  --color-purple: #8d6ca8;
+  --color-soft-purple: #d7c2ea;
+  --color-lavender: #f0e6f7;
 
-  --color-gold: #f7d774;
-  --color-soft-gold: #f0e0b0;
-  --color-champagne: #f5e6c8;
+  --color-gold: #e9bf5b;
+  --color-soft-gold: #f5df9f;
+  --color-champagne: #f9efd8;
 
-  --color-pink: #f6a6b8;
-  --color-soft-pink: #f5d0da;
-  --color-blush: #fce8ef;
+  --color-pink: #ef93b2;
+  --color-soft-pink: #f9d5e3;
+  --color-blush: #fdeff4;
 
-  --color-sage: #b8d8c0;
+  --color-sage: #bfdac7;
 }
 
 * {

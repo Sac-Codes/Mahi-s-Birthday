@@ -89,18 +89,39 @@ export function Profile() {
 
           <div className="space-y-8">
             <Reveal direction="right">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="inline-flex items-center rounded-full bg-coral/10 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.25em] text-coral">
+                  Profile card
+                </span>
+              </div>
               <h3 className="font-display text-3xl md:text-4xl font-bold text-charcoal mb-4">
                 {birthdayData.name.toUpperCase()}
               </h3>
-              <div className="space-y-2">
-                <p className="text-lg text-coral font-medium">{birthdayData.goal}.</p>
-                <p className="text-lg text-purple font-medium">Professional chaos generator.</p>
-                <p className="text-lg text-gold font-medium">Part-time gravity victim.</p>
-                <p className="text-lg text-pink font-medium">Full-time lovable human.</p>
-              </div>
             </Reveal>
 
             <Reveal direction="right" delay={0.2}>
+              <div className="rounded-[28px] border border-charcoal/10 bg-white/80 p-5 shadow-[0_18px_42px_rgba(72,47,77,0.08)] backdrop-blur-sm">
+                <div className="grid sm:grid-cols-2 gap-3">
+                  {[
+                    { label: "Current vibe", value: "Warm chaos", tone: "text-coral" },
+                    { label: "Main mission", value: birthdayData.goal, tone: "text-purple" },
+                    { label: "Status", value: "Professional drama queen", tone: "text-gold" },
+                    { label: "Signature move", value: "Turning normal into iconic", tone: "text-pink" },
+                  ].map((info) => (
+                    <div key={info.label} className="rounded-2xl bg-ivory/80 px-4 py-3 border border-charcoal/5">
+                      <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-charcoal/45 mb-2">
+                        {info.label}
+                      </p>
+                      <p className={`text-sm font-semibold ${info.tone}`}>
+                        {info.value}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </Reveal>
+
+            <Reveal direction="right" delay={0.3}>
               <p className="text-warm-gray leading-relaxed">
                 She is the kind of person who turns a normal Tuesday into an unforgettable story.
                 Slightly dramatic, accidentally clumsy, and overwhelmingly adorable.

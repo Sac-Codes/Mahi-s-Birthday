@@ -23,7 +23,7 @@ function App() {
   const [entered, setEntered] = useState(false);
 
   return (
-    <div className="min-h-screen bg-ivory">
+    <div className="min-h-screen bg-[radial-gradient(circle_at_top,_#fff7f3_0%,_#f8efe8_30%,_#f5ebf4_100%)] text-charcoal">
       <AnimatePresence>
         {!entered && <Hero onEnter={() => setEntered(true)} />}
       </AnimatePresence>
