@@ -23,19 +23,21 @@ export function MemoryWall() {
           {birthdayData.memories.map((memory, i) => (
             <Reveal key={memory.id} delay={i * 0.08}>
               <motion.div
-                className="bg-white rounded-xl p-3 card-shadow hover:card-shadow-hover transition-all cursor-pointer relative"
+                className="bg-white rounded-[22px] p-3 card-shadow hover:card-shadow-hover transition-all cursor-pointer relative flex h-full flex-col"
                 style={{ rotate: `${memory.rotation}deg` }}
                 whileHover={{ rotate: 0, scale: 1.03 }}
                 onClick={() => setSelectedMemory(i)}
               >
                 {i % 3 === 0 && <Tape className="top-0 left-1/2 -translate-x-1/2 -translate-y-1/2" width={60} />}
 
-                <ImagePlaceholder
-                  src={memory.image}
-                  alt={memory.caption}
-                  variant="polaroid"
-                  label="Memory"
-                />
+                <div className="overflow-hidden rounded-[18px] bg-ivory">
+                  <ImagePlaceholder
+                    src={memory.image}
+                    alt={memory.caption}
+                    variant="polaroid"
+                    label="Memory"
+                  />
+                </div>
                 <div className="pt-3 pb-1 px-1">
                   <p className="font-handwritten text-sm text-charcoal/70 leading-tight">
                     {memory.caption}

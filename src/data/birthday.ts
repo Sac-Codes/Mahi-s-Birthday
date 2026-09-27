@@ -403,5 +403,35 @@ May you always have the courage to go after what you want and never feel like yo
 
 Enjoy your day without any tension or stress—it's your day, so let others take the tension today. 😂❤️`,
     },
+    {
+      id: "richa",
+      name: "Richa",
+      image: "/images/Richa Profile.jpg",
+      message: `Happy Birthday, Shubhanghi! 🥳✨
+
+We haven’t really talked much personally, but since you’re one of Adi’s friends, I’ve obviously heard a little about you. 😂 And well, Adi is my best friend, so that automatically makes you someone I should know at least a little. 😂
+
+I hope you have an amazing birthday filled with happiness, laughter, good memories, and everything that makes you smile. May this new year of your life be full of great moments and even better people around you. ✨
+
+And since you’re one of Adi’s friends, I have just one small responsibility to hand over to you — take care of him. 😂 He’s my best friend, so I’m trusting you with that one. 😂
+
+Have an absolutely amazing birthday, Shubhanghi! 🎂🥳
+Stay happy, keep smiling, keep creating good memories, and have a wonderful year ahead! ✨`,
+    },
+    {
+      id: "sachin",
+      name: "Sachin",
+      image: "",
+      message: `Happy Birthday, Shubhangi! 🥳
+
+We haven’t really talked much personally, but since you’re one of Adi’s friends, I’ve obviously heard a little about you. 😂 And well, Adi is my best friend, so that automatically makes you someone I should know at least a little. 😂
+
+I hope you have an amazing birthday filled with happiness, laughter, good memories, and everything that makes you smile. May this new year of your life be full of great moments and even better people around you. ✨
+
+And since you’re one of Adi’s friends, I have just one small responsibility to hand over to you — take care of him. 😂 He’s my best friend, so I’m trusting you with that one. 😂
+
+Have an absolutely amazing birthday, Mahi! 🎂🥳
+Stay happy, keep smiling, keep creating good memories, and have a wonderful year ahead! ✨`,
+    },
   ],
 };

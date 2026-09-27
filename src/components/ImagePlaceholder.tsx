@@ -24,11 +24,11 @@ export function ImagePlaceholder({
 
   if (src) {
     return (
-      <div className={`${sizeMap[variant]} ${className} overflow-hidden`}>
+      <div className={`${sizeMap[variant]} ${className} overflow-hidden rounded-[20px] bg-ivory`}>
         <img
           src={src}
           alt={alt}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center block"
           loading="lazy"
         />
       </div>
@@ -37,7 +37,7 @@ export function ImagePlaceholder({
 
   return (
     <div
-      className={`${sizeMap[variant]} ${className} flex flex-col items-center justify-center bg-gradient-to-br from-peach/30 to-pink/20 border-2 border-dashed border-coral/30 rounded-xl overflow-hidden`}
+      className={`${sizeMap[variant]} ${className} flex flex-col items-center justify-center bg-gradient-to-br from-peach/30 to-pink/20 border-2 border-dashed border-coral/30 rounded-[20px] overflow-hidden`}
       role="img"
       aria-label={alt}
     >
