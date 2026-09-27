@@ -262,7 +262,7 @@ export const birthdayData = {
     { label: "CHAOS", icon: "⚡", value: "MAX" },
     { label: "GRAVITY", icon: "🪂", value: "ACTIVE" },
     { label: "HAPPINESS", icon: "✨", value: "OFF THE CHARTS" },
-    { label: "DRAMA", icon: "🎭", value: "GOD-TIER" },
+    { label: "DRAMA", icon: "👑", value: "GOD-TIER" },
     { label: "GOALS", icon: "🎯", value: "LOADING..." },
   ],
 
