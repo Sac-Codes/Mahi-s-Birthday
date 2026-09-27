@@ -1,3 +1,5 @@
+import sachinProfile from "../assets/Images/Sachin_Profile.png";
+
 export const birthdayData = {
   name: "Mahi",
   title: "THE BIRTHDAY FILES",
@@ -421,7 +423,7 @@ Stay happy, keep smiling, keep creating good memories, and have a wonderful year
     {
       id: "sachin",
       name: "Sachin",
-      image: "",
+      image: sachinProfile,
       message: `Happy Birthday, Shubhangi! 🥳
 
 We haven’t really talked much personally, but since you’re one of Adi’s friends, I’ve obviously heard a little about you. 😂 And well, Adi is my best friend, so that automatically makes you someone I should know at least a little. 😂
