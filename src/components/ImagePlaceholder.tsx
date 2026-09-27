@@ -16,10 +16,10 @@ export function ImagePlaceholder({
   label,
 }: ImagePlaceholderProps) {
   const sizeMap = {
-    profile: "w-64 h-80 md:w-80 md:h-96",
-    card: "w-full h-64 md:h-80",
-    polaroid: "w-full h-48 md:h-56",
-    avatar: "w-16 h-16 md:w-20 md:h-20",
+    profile: "w-64 md:w-80 aspect-[3/4]",
+    card: "w-full aspect-[4/5]",
+    polaroid: "w-full aspect-[3/4]",
+    avatar: "w-16 h-16 md:w-20 md:h-20 aspect-square",
   };
 
   if (src) {

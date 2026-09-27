@@ -152,7 +152,7 @@ export function Finale() {
         <Reveal delay={1.2} className="mt-20">
           <div className="border-t border-white/10 pt-8">
             <p className="text-xs text-ivory/40 tracking-wider">
-              THE BIRTHDAY FILES — Made with love for Mahi
+              THE BIRTHDAY FILES — Made With Love By Richa
             </p>
           </div>
         </Reveal>
