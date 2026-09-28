@@ -1,5 +1,6 @@
 import sachinProfile from "../assets/Images/Sachin_Profile.png";
 import mahiMainTagImage from "../assets/Images/Mahi_Profile Main.jpeg";
+import mahiSoloMainImage from "../assets/Images/Mahi_Solo_Main.jpeg";
 
 export const birthdayData = {
   name: "Mahi",
@@ -211,7 +212,7 @@ export const birthdayData = {
       caption: "Mahi Solo — Pure chaos energy",
       date: "Memory",
       rotation: 1,
-      image: mahiMainTagImage,
+      image: mahiSoloMainImage,
     },
   ],
 
