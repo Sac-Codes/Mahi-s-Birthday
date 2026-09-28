@@ -1,4 +1,5 @@
 import sachinProfile from "../assets/Images/Sachin_Profile.png";
+import mahiMainTagImage from "../assets/Images/Mahi_Profile Main.jpeg";
 
 export const birthdayData = {
   name: "Mahi",
@@ -11,8 +12,8 @@ export const birthdayData = {
   birthdayNote: "TODAY IS HER DAY.",
   goal: "Future IITian",
 
-  heroImage: "/images/Mahi_Profile.jpeg",
-  profileImage: "/images/Mahi_Profile.jpeg",
+  heroImage: mahiMainTagImage,
+  profileImage: mahiMainTagImage,
 
   heroRoasts: [
     "Warning: May cause unnecessary drama.",
@@ -210,7 +211,7 @@ export const birthdayData = {
       caption: "Mahi Solo — Pure chaos energy",
       date: "Memory",
       rotation: 1,
-      image: "/images/Mahi Solo (1).jpeg",
+      image: mahiMainTagImage,
     },
   ],
 
